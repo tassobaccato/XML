@@ -1,1 +1,18 @@
-
+<?xml version="1.0" encoding="windows-1251"?>
+<bugReport>
+    <id>1</id>
+    <title>кнопка "каталог" не кликабельна</title>
+    <path>1.открыть главную страницу
+        2.кликнуть кнопку "каталог"</path>
+    <expected>открывается меню каталога</expected>
+    <actual>меню не открывается</actual>
+    <priority>1</priority>
+    <comment>img</comment>
+    <id>2</id>
+    <title>на карточке товара нет цены</title>
+    <path>1.в поле поиска ввести артикль 123</path>
+    <expected>на карточке отображается цена</expected>
+    <actual>на карточке отсутствует цена</actual>
+    <priority>2</priority>
+    <comment>img</comment>
+</bugReport>
